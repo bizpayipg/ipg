@@ -10,11 +10,11 @@
 	 */
 	class bizpayapi {
          		  
-		   /**
+	/**
            * Set your default BizPay Settings here. 
 		     If require, you can override those values during method calls.
        */ 
-	         public $bizpayhost = "; // BizPay Service Host Address
+	   public $bizpayhost = "; // BizPay Service Host Address
            public $merchant =""; // BizPay Merchant ID
            public $apikey =""; //BizPay Merchant API Key
            public $apitoken =""; //BizPay Merchant API Token
